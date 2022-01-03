@@ -1,0 +1,55 @@
+#nav{
+    display: flex;
+    width: 95%;
+    height: 80px;
+    margin: auto;
+    background-color: firebrick;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 10px;
+}
+#nav>div{
+    margin-left: 25px;
+}
+#nav>div:nth-child(4){
+    margin-left: 800px;
+}
+#nav>div>h1{
+    color: floralwhite;
+}
+#nav>div>h1:hover{
+    color: black;
+    text-decoration: underline;
+}
+a{
+    color: floralwhite;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+#items{
+    width: 80%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin: auto;
+    margin-top: 15px;
+}
+#img{
+    height: 400px;
+    width: 500px;
+}
+#items>div>div:nth-child(2){
+    margin: -15px;
+    margin-left: 5px;
+}
+.cart{
+    display: flex;
+}
+.cart>span{
+    padding-top: 30px;
+    padding-left: 10px;
+    color: floralwhite;
+}
